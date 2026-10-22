@@ -1,0 +1,3 @@
+import { Card, PageHeader } from "@/components/ui/primitives";
+const STEPS = ["Importer le CV (le portfolio de Sandrine sert de source initiale)","Vérifier les informations extraites","Confirmer les préférences","Clarifier le salaire net ou brut","Connecter les services autorisés","Choisir le niveau d'automatisation","Tester une candidature à blanc avant activation"];
+export default function Page() { return (<><PageHeader title="Onboarding" subtitle="Aucune expérience n'est utilisée tant qu'elle n'est pas confirmée par Sandrine." /><Card><ol className="space-y-3 text-sm">{STEPS.map((s, i) => <li key={s} className="flex items-center gap-3"><span className="grid h-7 w-7 place-items-center rounded-full bg-ink text-xs text-white">{i + 1}</span>{s}</li>)}</ol></Card></>); }
