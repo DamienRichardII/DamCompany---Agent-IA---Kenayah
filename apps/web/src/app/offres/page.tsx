@@ -1,0 +1,2 @@
+import { getDataset } from "@/data"; import { PageHeader } from "@/components/ui/primitives"; import { ApplicationsTable } from "@/components/ui/ApplicationsTable";
+export default function Page() { const d = getDataset(); return (<><PageHeader title={`Offres d'emploi (${d.applications.length})`} subtitle="Offres analysées par Kenayah selon tes critères." /><ApplicationsTable rows={d.applications} /></>); }

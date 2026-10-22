@@ -1,0 +1,2 @@
+import { getDataset } from "@/data"; import { PageHeader } from "@/components/ui/primitives"; import { ApplicationsTable } from "@/components/ui/ApplicationsTable";
+export default function Page() { return (<><PageHeader title="Candidatures" subtitle="Suivi complet : statuts, documents, prochaines actions." /><ApplicationsTable rows={getDataset().applications.filter(a => a.status !== "decouverte")} /></>); }
