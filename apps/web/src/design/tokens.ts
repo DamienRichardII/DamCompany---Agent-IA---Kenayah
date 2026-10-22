@@ -1,11 +1,11 @@
 /** Design tokens KENAYAH AI × DamCompany — source unique des couleurs. */
 export const tokens = {
   color: {
-    paper: "#F7F6F2",   // blanc cassé — fond principal (~65%)
+    paper: "#F5F4F0",   // blanc cassé du logo DamCompany — fond principal
     ink: "#0A0A0A",     // noir profond — sidebar, titres (~25%)
-    volt: "#EFFF00",    // jaune électrique — actions/actifs (~10%)
+    volt: "#FEDD58",    // jaune du logo DamCompany (éclair) — actions/actifs
     surface: "#FFFFFF", // cartes
-    line: "#E8E7E2",    // séparateurs
+    line: "#E6E4DB",    // séparateurs
     mute: "#777777",    // texte secondaire
   },
 } as const;

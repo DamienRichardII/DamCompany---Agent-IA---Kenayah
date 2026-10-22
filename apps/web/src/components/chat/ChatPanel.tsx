@@ -2,7 +2,7 @@
 import { useEffect, useRef, useState } from "react";
 import { Send } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
-import { Mascot } from "@/components/ui/Mascot";
+import { KenayahAvatar } from "@/components/ui/Avatar";
 import { ScoreBadge } from "@/components/ui/primitives";
 import { answer, type ChatReply } from "@/lib/chatEngine";
 import { getDataset } from "@/data";
@@ -27,7 +27,7 @@ export function ChatPanel() {
       <div role="log" aria-live="polite" className="flex-1 space-y-4 overflow-y-auto p-4">
         <AnimatePresence initial={false}>{msgs.map((m, i) => (
           <motion.div key={i} initial={{ opacity: 0, y: 6 }} animate={{ opacity: 1, y: 0 }} className={m.role === "user" ? "flex justify-end" : "flex gap-2"}>
-            {m.role === "ai" && <span className="mt-1 shrink-0"><Mascot size={32} /></span>}
+            {m.role === "ai" && <span className="mt-1 shrink-0"><KenayahAvatar size={32} ring={false} /></span>}
             <div className="max-w-[85%]">
               <div className={m.role === "user" ? "rounded-2xl rounded-br-sm bg-ink px-4 py-3 text-sm text-white" : "rounded-2xl rounded-bl-sm border border-line bg-surface px-4 py-3 text-sm"}>{m.text}</div>
               {m.cards && <div className="mt-2 flex gap-2 overflow-x-auto pb-1">{m.cards.map(c => (
