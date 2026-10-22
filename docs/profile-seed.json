@@ -1,0 +1,27 @@
+{
+  "_meta": {
+    "source": "CV_CDI_2026-7.pdf (CV de Sandrine, fourni par DamCompany le 2026-10-22)",
+    "verification_status": "CV importé. À relire et confirmer par Sandrine à l'onboarding (verified=false tant que non confirmé). Le portfolio https://portfolio-sandrine.vercel.app/ est une source secondaire ; en cas d'écart, le CV prévaut."
+  },
+  "identity": { "full_name": "Sandrine Kellam Nonga", "headline": "Recherche CDI chargée de projets marketing et expérience client — disponible dès octobre 2026", "location": "Île-de-France",
+    "summary": "Diplômée d'un Master Marketing et Expérience Client. Spécialisée en marketing direct, gestion de projet et analyse de performance. Expérience dans le pilotage de campagnes multicanales, le reporting KPI et la coordination de prestataires.",
+    "languages": [{"lang":"Français","level":"langue maternelle"},{"lang":"Anglais","level":"C1","evidence":"TOEIC 965/990"},{"lang":"Espagnol","level":"B1"}] },
+  "education": [
+    {"school":"EMLV","degree":"Master Marketing et Expérience Client","start":2024,"end":2026},
+    {"school":"ESI Business School","degree":"Bachelor in Green, Social and Digital Business","start":2021,"end":2024},
+    {"school":"Notre-Dame de France","degree":"Brevet et Baccalauréat (mention Bien)","start":2006,"end":2021}
+  ],
+  "experiences": [
+    {"org":"Action contre la Faim","role":"Assistante collecte 360 — marketing direct","start":"2023-09","end":"2026-09",
+     "missions":["Pilote plus de 50 campagnes télémarketing et mailing (briefs, scripts, maquettes, BAT) contribuant à la fidélisation des donateurs et au dépassement des objectifs de collecte","Analyse les KPI et produit des reportings hebdomadaires pour identifier des axes d'optimisation","Contrôle le suivi budgétaire des campagnes (factures, demandes d'achat, coûts unitaires)","Forme et accompagne prestataires et collaborateurs sur les standards qualité et l'écoute téléphonique"]},
+    {"org":"VTCR SR","role":"Responsable administrative et communication","start":"2023-06","end":"2023-08",
+     "missions":["Coordonne les opérations administratives quotidiennes","Conçoit des supports de communication (site vitrine, cartes de visite, documents internes)","Gère les opérations comptables et le suivi de caisse","Optimise les outils de gestion et de communication (Excel, Canva, Editor X)"]},
+    {"org":"HU Paris Sud Kremlin-Bicêtre APHP","role":"Assistante administrative","start":"2022-08","end":"2022-08",
+     "missions":["Traite et met à jour plusieurs dizaines de dossiers patients (Orbis)","Traite courriers et documents administratifs","Organise le classement et l'archivage des dossiers"]},
+    {"org":"BioTech USA","role":"Vendeuse polyvalente","start":"2022-06","end":"2022-07",
+     "missions":["Conseille quotidiennement les clients","Structure les encaissements et opérations de caisse","Optimise la présentation des produits et le merchandising","Réalise stocks, commandes et livraisons"]}
+  ],
+  "skills": ["Analyse de données","Reporting","Gestion de projet","Organisation opérationnelle","Suivi budgétaire","Rigueur","Outils bureautiques (certification TOSA)","Canva","Adobe Express","Adobe Photoshop","Editor X","Google Sites"],
+  "interests": ["Voyage","Musique","Cuisine","Mode","Bénévolat"],
+  "preferences_stated_by_damcompany": { "contract": "CDI", "salary_range_eur": [40000, 45000], "salary_basis": "net_annuel", "note": "Net annuel indiqué par DamCompany le 2026-10-22 ; à confirmer par Sandrine dans l'interface avant tout envoi automatique." }
+}
